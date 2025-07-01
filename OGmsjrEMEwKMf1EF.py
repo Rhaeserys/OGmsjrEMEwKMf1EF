@@ -110,7 +110,7 @@ models = {
     }
 
 results = {}
-kf = StratifiedFold(n_splits=5, shuffle=True, randomm_state=42)
+kf = StratifiedFold(n_splits=5, shuffle=True, random_state=42)
 
 for model_name, model in models.items():
     print(f"\nTraining {model_name}...")
