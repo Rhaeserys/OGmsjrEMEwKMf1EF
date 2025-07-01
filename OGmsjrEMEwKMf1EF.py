@@ -22,7 +22,7 @@ try:
     print (f"File downloaded successfully as {output_csv}")
 except Exception as e:
     print(f"An error occurred during download: {e}")
-    print("Plase ensure the Google Drive link is shareable or download the file manually and place it in your working directory as 'customer_survey_data.csv'")
+    print("Please ensure the Google Drive link is shareable or download the file manually and place it in your working directory as 'customer_survey_data.csv'")
 
 # Import Dataset
 try:
